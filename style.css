@@ -1,0 +1,10 @@
+#navbarNavAltMarkup{
+    justify-content: right;
+}
+.lateral-space{
+    padding: 0 100px;
+    margin-top: 20px;
+}
+.navbar{
+    padding: 5px 20px;
+}
