@@ -1,5 +1,17 @@
+*{
+    font-family: 'Roboto Mono', monospace;
+}
+body{
+    background: linear-gradient(180deg, rgba(116,116,116,1) 0%, rgba(154,154,154,1) 35%);
+    height: 100%;
+}
+
 #navbarNavAltMarkup{
     justify-content: right;
+}
+.navbar-nav{
+    color: #9a9a9a;
+    font-size: large;
 }
 .lateral-space{
     padding: 0 100px;
@@ -7,4 +19,20 @@
 }
 .navbar{
     padding: 5px 20px;
+}
+
+.formacao{
+    justify-content: center;
+    text-align: center;
+}
+
+h4{
+    font-weight: bold;
+}
+
+.competencias{
+    display:flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
 }
